@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+}
+
+.card {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.show {
+  font-size: 30px;
+}
+
+.hide {
+  font-size: 0;
+}
+
+.remove {
+  visibility: hidden;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: aqua;
+}
